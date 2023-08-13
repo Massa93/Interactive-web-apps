@@ -49,7 +49,7 @@ if (shoes + batteries + pens + shirts > 1000 || shoes + batteries + pens + shirt
 //incorrectly put curly braces, and therefore must be truncated
 /*}*/
 
-//the "if" statement wasn't enclosed with brackete 
+//the "if" statement wasn't enclosed with brackets
 if ((shipping = 0) && (customers !=== 1)) { 
     console.log(WARNING) 
 }
