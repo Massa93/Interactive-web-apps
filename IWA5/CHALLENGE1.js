@@ -7,18 +7,18 @@ let shipping = 0
 
 //the location variable wasn't declared and initialised to "RSA"
 //and the currency variable wasn't declared and intialised
-let location = RSA
-let currency = any
+let location_1 = 'RSA'
+let currency = 'R'
 
-if (location = RSA) 
+if (location_1 === 'RSA') 
 { 
-    shipping === 400 && currency === 'R400' 
+    shipping = 400 && currency = 'R' 
 }
 
 //the syntax of the conditional statements was incorrect
 //the location variable wasn't updated to "NAM"
-location = NAM
-if (location = NAM){
+location_1 = NAM
+if (location_1 = NAM){
 shipping = 600
 } 
 else {
@@ -40,7 +40,7 @@ currency = null
 //the if condition had and && sign insted of an || sign, and also did not specify the currency magnitude
 if (shoes + batteries + pens + shirts > 1000 || shoes + batteries + pens + shirts > $60) 
 {
-	if (location = NAM && customers < 2) {
+	if (location_1 = NAM && customers < 2) {
 			if (location = RSA)
             //"calc shipping" is irrelevant and therefore must be truncated
 		    shipping = 0 
@@ -54,10 +54,10 @@ if ((shipping = 0) && (customers !=== 1)) {
     console.log(WARNING) 
 }
 
-location = 'NK' ? console.log(WARNING) : console.log('price', currency, shoes + batteries + pens + shirts + shipping)
+location_1 = 'NK' ? console.log(WARNING) : console.log('price', currency, shoes + batteries + pens + shirts + shipping)
 
 customers = '1'
-const location = 'RSA'
+location_1 = 'RSA'
 currency = null
 
 console.log("PRICE: R1270")

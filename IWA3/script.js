@@ -1,1 +1,2 @@
-console.log('Roles:', nwabisa.role, johanes.role, alex.role)
+import { nwabisa, role } from "./nwabisa.js";
+console.log('Roles:', nwabisa, johanes.role, alex.role)
