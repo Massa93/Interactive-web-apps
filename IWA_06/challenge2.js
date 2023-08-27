@@ -24,9 +24,9 @@ const minuteOfDay = '00';
 	multiply a numerical "taxAsDecimal" value.
 */
 if (hourOfDay && (minuteOfDay !== null) && (hourOfDay == '00') && (minuteOfDay == '00')) {
-	const taxAsDecimal = tax / 100
+	const taxAsDecimal = pareseInt(tax) / 100
     const startingAfterTax = salary * 1 - taxAsDecimal
 	const balace = starting - transport - food - rent
 }
 	
-console.log(balance.toFixed(3))
+console.log(balance.toFixed(2))

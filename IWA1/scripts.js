@@ -2,13 +2,13 @@ const MAX_NUMBER = 14
 const MIN_NUMBER = -5
 
 
-const number= document.querySelector('[da ta-key="number"]')
+const number= document.querySelector('[data-key="number"]')
 const subtract= document.querySelector('[data-key="subtract"]')
 const add= document.querySelector('[data-key="add"]')
 
 const substractHandler= () =>{
-    const newValue = parseInt(number.value)-1
-    number.value= newValue;  
+    const newValue = parseInt(number.value)-1,
+    number.value= newValue,  
 
     if( number.value.disabled===true){
         add.disabled=false           
@@ -18,8 +18,8 @@ const substractHandler= () =>{
         }
 }
 const addHandler= () =>{
-    const newValue=parseInt(number.value)-1
-    number.value=number.value+1;
+    const newValue=parseInt(number.value)-1,
+    number.value=number.value+1,
 
     if(subtract.disabled===true){
     add.disabled = true

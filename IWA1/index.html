@@ -38,13 +38,13 @@
         
     </aside>
     <main class="counter">
-        <input class="counter__value" data-key="number" readonly value="0">
+        <input class="counter__value" [data-key]="number" readonly value="0">
         <div class="counter__actions">
-            <button data-key="subtract" class="counter__button counter__button__first">-</button>
-            <button data-key="add" class="counter__button">+</button>
+            <button [data-key]="subtract" class="counter__button__first">-</button>
+            <button [data-key]="add" class="counter__button">+</button>
         </div>
     </main>
-    <footer class="footer">Inspire by <a class="footer__link" href="https://tallycount.app/"> Tally Count. Just for Practise!</footer>
+    <footer class="footer">Inspired by <a class="footer__link" href="https://tallycount.app/"> Tally Count. Just for Practise!</footer>
 
 </body>
 </html>

@@ -10,6 +10,12 @@ const divider = '----------------------------------'
 
 // Only change below this line
 
+/*Leo Musvaire (Owed: R 9394.00)
+Sarah Kleinhans (Owed: R 4582.20)
+
+----------------------------------
+  Total amount owed: R 13 976.20
+----------------------------------*/
 
 const owed = parseInt('R' + leoBalance + sarahBalance)
 const leo = `{leoName} + {leoSurname} + (Owed:) + \"R\" + {leoBalance}`
